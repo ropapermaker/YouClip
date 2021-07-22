@@ -1,0 +1,85 @@
+<html>
+<head>
+    <title>Useless Page</title>
+    <link rel="stylesheet" href = "style.css">
+    <script type="text/javascript" src = "/eel.js"></script> 
+    <script type="text/javascript" src = "/main.js"></script>
+</head>
+<body>
+    
+    
+<style>
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;    
+    
+</style>
+    
+    
+
+<div class="banner">
+    <div class = "youtube">
+        <div class = "titlediv">
+            <h1 class = "title">YouClip</h1>
+         </div>
+        
+        <div class = "elements-and-loaders">
+            <div class = "elements">
+                
+                <div class="url">
+                    <p2>Input URL:</p2>
+                    <input type="text" id="url" name="url" class="text_field" placeholder="Link Goes Here" autocomplete="off" >
+                </div>
+            
+                <div class="time">
+                    <p2>Input Start Time:</p2>
+                    <input type="number" id="startmin" name="startmin" class="minute-second" placeholder="MM" autocomplete="off" maxlength = 2
+                           oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+                    <p2> : </p2>
+                    <input type="number" id="startsec" name="startsec" class="minute-second" placeholder="SS" autocomplete="off">
+                </div>
+                
+                <div class="time">
+                    <p2>Input End Time:&nbsp;&nbsp;</p2>
+                    <input type="number" id="endmin" name="endmin" class="minute-second" placeholder="MM" autocomplete="off">
+                    <p2> : </p2>
+                    <input type="number" id="endsec" name="endsec" class="minute-second" placeholder="SS" autocomplete="off">
+                </div>
+                                
+                <div class = "downloadbtn">
+                    <button class="btn" onclick = "startProcess();"><span>Download</span></button>
+                </div>
+                
+            </div>
+            
+
+            
+            
+            <div class = "loaders">
+                <div class = "checks">
+                    <p id = "chk1txt">Checking Video Link...</p>
+                    <p2 id = "chk1cnfrm">Video Link Valid!</p2>
+                    <br><br>
+                    <p id = "chk2txt">Downloading Video...</p>
+                    <p2 id = "chk2cnfrm">Video Downloaded!</p2>
+                    <br><br>
+                    <p id = "chk3txt">Cropping Video...</p>
+                    <p2 id = "chk3cnfrm">Video Cropped!</p2>
+                    <br><br>
+                    <p3 id = "finalcnfrm">Video Processing Failed!</p3>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
