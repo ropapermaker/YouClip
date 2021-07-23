@@ -62,14 +62,6 @@ def crop_video(startmin, startsec, endmin, endsec):
     else:
         pass
     
-    zeroitems = 0
-    for item in intval:
-        if item == 0:
-            zeroitems += 1
-    
-    if zeroitems < 2:
-        return("less")
-    
     now = datetime.now()
     current_time = now.strftime("%H:%M:%S")
     
