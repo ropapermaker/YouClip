@@ -23,8 +23,10 @@ Python packages needed:
 - `eel` => install with `pip install eel` 
 - `moviepy` => install with `pip install moviepy`
 - `youtube_dl` => install with `pip install youtube_dl`
-- `datetime` install with `pip install datetime`
+- `datetime` install with `pip install datetime` <br />
+*on linux use `pip3`
 
+<br />
 You also need ffmpeg installed in your system. <br />
 On linux run `sudo apt install ffmpeg` and you're good to go. <br />
 For Windows, download [here](https://www.gyan.dev/ffmpeg/builds/) gyan.dev version of ffmpeg, extract the files somewhere and then add the `ffmpeg/bin` path to your
@@ -48,4 +50,4 @@ Lots of things, honestly. <br />
 - [ ] Make The GUI More Appealing.
 - [ ] Add A Progress Bar Of Some Form.
 - [ ] Make An Installer For Windows As .exe.
-- [ ] Make The .exe App Borderless And Add An Close Button Cause It Bothers Me.
+- [ ] Make The .exe App Borderless And Add A Close Button Cause It Bothers Me.
