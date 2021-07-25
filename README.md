@@ -22,7 +22,7 @@ which connects with the Javascript in the page using `eel module`. Pretty cool s
 Python packages needed:
 - `eel` => install with `pip install eel` 
 - `moviepy` => install with `pip install moviepy`
-- `youtube_dl` => install with `pip install youtube_dl`
+- `youtube_dl` => install with `pip install youtube-dl`
 - `datetime` install with `pip install datetime` <br />
 *on linux use `pip3`
 
