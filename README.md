@@ -47,6 +47,7 @@ Lots of things, honestly. <br />
 
 - [x] Get The App Basicially Working.
 - [x] Handle The Basic Errors.
+- [ ] Doesn't work on Windows; moviepy returns an error (probably because of my ffmpeg setup).
 - [ ] Make The GUI More Appealing.
 - [ ] Add A Progress Bar Of Some Form.
 - [ ] Make An Installer For Windows As .exe.
