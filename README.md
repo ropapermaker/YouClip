@@ -30,7 +30,7 @@ on linux use `pip3`
 You also need ffmpeg installed in your system. <br />
 On linux ubuntu run `sudo apt install ffmpeg` and you're good to go. On manjaro ffmpeg is installed by default; not tried on other distros. <br />
 For Windows, download [here](https://www.gyan.dev/ffmpeg/builds/) gyan.dev version of ffmpeg, extract the files somewhere and then add the `ffmpeg/bin` path to your
-`PATH Variable`, if you don't know how look it up [here](duckduckgo.com). I honestly don't know if it will run properly on Windows because ffmpeg installation
+`PATH Variable`, if you don't know how look it up [here](https://duckduckgo.com). I honestly don't know if it will run properly on Windows because ffmpeg installation
 there is a pain in the ass, or atleast it has been for me and if you get it to run on Windows please contact me somehow.
 
 <br />
