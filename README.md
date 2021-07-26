@@ -1,10 +1,11 @@
-# YouClip v1.0
+# YouClip v1.0.1
 
 ## Table Of Contents:
 - What Is YouClip
 - Installation
 - Usage
 - Stuff To Fix
+- Changelog
 
 <br />
 
@@ -28,7 +29,7 @@ Python packages needed:
 
 <br />
 You also need ffmpeg installed in your system. <br />
-On linux run `sudo apt install ffmpeg` and you're good to go. <br />
+On linux ubuntu run `sudo apt install ffmpeg` and you're good to go. On manjaro ffmpeg is installed by default; not tried on other distros. <br />
 For Windows, download [here](https://www.gyan.dev/ffmpeg/builds/) gyan.dev version of ffmpeg, extract the files somewhere and then add the `ffmpeg/bin` path to your
 `PATH Variable`, if you don't know how look it up [here](duckduckgo.com). I honestly don't know if it will run properly on Windows because ffmpeg installation
 there is a pain in the ass, or atleast it has been for me and if you get it to run on Windows please contact me somehow.
@@ -52,3 +53,22 @@ Lots of things, honestly. <br />
 - [ ] Add A Progress Bar Of Some Form.
 - [ ] Make An Installer For Windows As .exe.
 - [ ] Make The .exe App Borderless And Add A Close Button Cause It Bothers Me.
+- [ ] Clean the code, comment it.
+
+<br />
+<br />
+<br />
+
+
+### Changelog
+
+**v1.0.0**:
+ - Uploaded the first somehow working version of the app, so basicially added all the stuff.
+ <br />
+ 
+**v1.0.1**:
+ - Downloaded videos now get assigned a random generated number; this is to prevent if any leftover files from other sessions have been left in that same directory.
+ - For the above reason now random module is needed.
+ - Fixed the error where if the file wasn't mp4 it wouldn't crop, now all files are downloaded to mp4 or converted to mp4.
+
+
