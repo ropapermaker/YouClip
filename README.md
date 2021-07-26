@@ -25,9 +25,8 @@ Python packages needed:
 - `moviepy` => install with `pip install moviepy`
 - `youtube_dl` => install with `pip install youtube-dl`
 - `datetime` install with `pip install datetime` <br />
-*on linux use `pip3`
+on linux use `pip3`
 
-<br />
 You also need ffmpeg installed in your system. <br />
 On linux ubuntu run `sudo apt install ffmpeg` and you're good to go. On manjaro ffmpeg is installed by default; not tried on other distros. <br />
 For Windows, download [here](https://www.gyan.dev/ffmpeg/builds/) gyan.dev version of ffmpeg, extract the files somewhere and then add the `ffmpeg/bin` path to your
