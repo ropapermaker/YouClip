@@ -11,6 +11,7 @@
 
 ### What Is YouClip?
 
+(image)[https://i.imgur.com/6GCyhgD.png]
 YouClip takes the video whose link you provided, downloads it and crops it in the timestamps given. <br /> It uses a fancy GUI using `HTML`, `CSS` and `Javascript`,
 but don't expect too much; it was done in two days with me being a complete begginer in this GUI field. For the backend, `python` downloads and crops the video
 which connects with the Javascript in the page using `eel module`. Pretty cool stuff.
