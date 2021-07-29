@@ -76,10 +76,15 @@ Just execute the script and you will be good to go. `python3 main.py` in linux t
  - Downloaded videos now get assigned a random generated number; this is to prevent if any leftover files from other sessions have been left in that same directory.
  - For the above reason now random module is needed.
  - Fixed the error where if the file wasn't mp4 it wouldn't crop, now all files are downloaded to mp4 or converted to mp4.
+ 
 <br />
+
 **v1.0.2**:
 - Made installers for linx debian and arch. (with no error handling.)
 - Commented the code a bit.
+
+<br />
+
 **v1.0.3**:
-- Improved installer file and now only one is needed. (Made by [ropapermaker](https://github.com/ropapermaker))
+- Improved installer file; Has error handling and now only it's the only one needed. (Made by [ropapermaker](https://github.com/ropapermaker))
 - Removed the previous installers.
