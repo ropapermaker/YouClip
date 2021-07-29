@@ -82,3 +82,4 @@ Just execute the script and you will be good to go. `python3 main.py` in linux t
 - Commented the code a bit.
 **v1.0.3**:
 - Improved installer file and now only one is needed. (Made by [ropapermaker](https://github.com/ropapermaker))
+- Removed the previous installers.
