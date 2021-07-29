@@ -7,8 +7,15 @@ from moviepy.video.io.ffmpeg_tools import ffmpeg_extract_subclip
 from datetime import datetime
 
 eel.init('web')
-now = datetime.now()
 
+now = datetime.now() # Need this for the output video title.
+
+
+#        The below function checks if the link is valid and if it works or not using some ways,
+#        first if youtube.com is in the link at all,
+#        missing schema is when the link doesn't contain the 'https://' part
+#        If both conditions are met, it stores the page text in the r variable and checks if
+#        'video unavailable' text is in it; if not then the link is valid.
 
 @eel.expose
 def check_video_url(url):
@@ -28,12 +35,19 @@ def check_video_url(url):
     else:
         print("youtube.com in link not found")
         return("notyt")
-randomNumbers = 0
-vidTitle = f"video{randomNumbers}.mp4"
+
+vidTitle = "" # will globally store the video title
+
+
+#            Downloads the video using youtube-dl as a command in the terminal with the best video and audio format,
+#            This is not the best approach to this so I might change the downloadation method so it downloads the video
+#            using only python itself.
+
 @eel.expose
 def download_video(videoURL):
     randNums = random.randint(1000, 9999)
-    randomNumbers = randNums
+    global vidTitle
+    vidTitle = f"video{randNums}.mp4"
     print(vidTitle)
     try:
         os.system(f"youtube-dl --format 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4' -o '{vidTitle}' {videoURL}")
@@ -42,9 +56,10 @@ def download_video(videoURL):
         return("error")
 
 
+
+#           Crops the video with moviepy; here are lots of stuff to handle so I tried to handle all I could think of.
 @eel.expose
 def crop_video(startmin, startsec, endmin, endsec):
-
     seconds = [startmin, startsec, endmin, endsec]
     intval = []
 
@@ -90,4 +105,4 @@ def crop_video(startmin, startsec, endmin, endsec):
         return("greaterstart")
 
 
-eel.start('index.html', size = (1000, 600))
+eel.start('index.html', size = (1000, 600)) # starts the app
