@@ -1,4 +1,4 @@
-# YouClip v1.0.2
+# YouClip v1.0.3
 
 ## Table Of Contents:
 - What Is YouClip
@@ -20,10 +20,9 @@ which connects with the Javascript in the page using `eel module`. Pretty cool s
 <br />
 
 ### Installation
-According to your linux distribution, use the proper installation file for you. <br />
-Run:
-- `sudo chmod +x install_{arch or debian}.sh`
-- `./install_{arch or debian}.sh`
+To install requirements for YouClip run these commands in the terminal:
+- `sudo chmod +x install.sh`
+- `./install.sh`
 <br />
 For windows I will work on an installer after I get my code to work properly there, stay tuned.
 
@@ -81,5 +80,5 @@ Just execute the script and you will be good to go. `python3 main.py` in linux t
 **v1.0.2**:
 - Made installers for linx debian and arch. (with no error handling.)
 - Commented the code a bit.
-
-
+**v1.0.3**:
+- Improved installer file and now only one is needed. (Made by [ropapermaker](https://github.com/ropapermaker))
