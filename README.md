@@ -1,4 +1,4 @@
-# YouClip v1.0.1
+# YouClip v1.0.2
 
 ## Table Of Contents:
 - What Is YouClip
@@ -20,6 +20,15 @@ which connects with the Javascript in the page using `eel module`. Pretty cool s
 <br />
 
 ### Installation
+According to your linux distribution, use the proper installation file for you. <br />
+Run:
+- `sudo chmod +x install_{arch or debian}.sh`
+- `./install_{arch or debian}.sh`
+<br />
+For windows I will work on an installer after I get my code to work properly there, stay tuned.
+
+<!--
+OLD INSTALLATION INSTRUCTIONS:
 
 Python packages needed:
 - `eel` => install with `pip install eel` 
@@ -33,6 +42,7 @@ On linux ubuntu run `sudo apt install ffmpeg` and you're good to go. On manjaro 
 For Windows, download [here](https://www.gyan.dev/ffmpeg/builds/) gyan.dev version of ffmpeg, extract the files somewhere and then add the `ffmpeg/bin` path to your
 `PATH Variable`, if you don't know how look it up [here](https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/). I honestly don't know if it will run properly on Windows because ffmpeg installation
 there is a pain in the ass, or atleast it has been for me and if you get it to run on Windows please contact me somehow.
+-->
 
 <br />
 
@@ -44,15 +54,13 @@ Just execute the script and you will be good to go. `python3 main.py` in linux t
 
 ### Stuff To Fix
 
-Lots of things, honestly. <br />
-
 - [x] Get The App Basicially Working.
-- [x] Handle The Basic Errors.
-- [ ] Doesn't work on Windows; moviepy returns an error (probably because of ffmpeg setup).
-- [ ] Make The GUI More Appealing.
+- [x] Handle Most of The Errors.
+- [x] Make An Installer For Linux.
+- [x] Make an Installer For Windows.
+- [x] Comment the code (update: I did, but poorly.)
+- [ ] Doesn't work on Windows; moviepy returns an error.
 - [ ] Add A Progress Bar Of Some Form.
-- [ ] Make An Installer.
-- [ ] Clean the code, comment it.
 
 <br />
 <br />
@@ -69,5 +77,9 @@ Lots of things, honestly. <br />
  - Downloaded videos now get assigned a random generated number; this is to prevent if any leftover files from other sessions have been left in that same directory.
  - For the above reason now random module is needed.
  - Fixed the error where if the file wasn't mp4 it wouldn't crop, now all files are downloaded to mp4 or converted to mp4.
+<br />
+**v1.0.2**:
+- Made installers for linx debian and arch. (with no error handling.)
+- Commented the code a bit.
 
 
