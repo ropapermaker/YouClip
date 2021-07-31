@@ -1,4 +1,4 @@
-# YouClip v1.0.3
+# YouClip v1.0.5
 
 ## Table Of Contents:
 - What Is YouClip
@@ -20,12 +20,14 @@ which connects with the Javascript in the page using `eel module`. Pretty cool s
 <br />
 
 ### Installation
-To install requirements for YouClip run these commands in the terminal:
+To install requirements for YouClip in Linux run these commands in the terminal:
 - `sudo chmod +x install.sh`
 - `./install.sh`
-<br />
-For windows I will work on an installer after I get my code to work properly there, stay tuned.
 
+<br />
+
+For windows just download the relase file in the [Relases](https://github.com/adornerz/YouClip/releases) and run it.
+For Mac try the above commands of linux but I haven't tried nothing on Mac so idk.
 <!--
 OLD INSTALLATION INSTRUCTIONS:
 
@@ -46,9 +48,12 @@ there is a pain in the ass, or atleast it has been for me and if you get it to r
 <br />
 
 ### Usage
+Linux:
+Just execute the script and you will be good to go. `python3 main.py` in the terminal.
 
-Just execute the script and you will be good to go. `python3 main.py` in linux terminal or `python main.py` in Window's CMD, in the folder's path of course.
-
+Windows:
+- If you installed using the installed on [Relases](https://github.com/adornerz/YouClip/releases)
+- If you're using the source code execute `python main.py` in CMD.
 <br />
 
 ### Stuff To Fix
@@ -58,8 +63,8 @@ Just execute the script and you will be good to go. `python3 main.py` in linux t
 - [x] Make An Installer For Linux.
 - [x] Make an Installer For Windows.
 - [x] Comment the code (update: I did, but poorly.)
-- [ ] Doesn't work on Windows; moviepy returns an error.
-- [ ] Add A Progress Bar Of Some Form.
+- [x] Doesn't work on Windows; moviepy returns an error. (update: Now works; eliminated moviepy.)
+- [ ] Add A Progress Bar Of Some Form on the GUI.
 
 <br />
 <br />
@@ -88,3 +93,18 @@ Just execute the script and you will be good to go. `python3 main.py` in linux t
 **v1.0.3**:
 - Improved installer file; Has error handling and now only it's the only one needed. (Made by [ropapermaker](https://github.com/ropapermaker))
 - Removed the previous installers.
+
+<br />
+
+**v1.0.4**:
+- Removed moviepy as it returned errors on windows and it wasn't really needed as a package, now a local ffmpeg file is used.
+- Created a seperate script for Windows.
+
+<br />
+
+**v1.0.5**:
+- Improved window's main.py a lot.
+- Window's installer now is fully working, and the scripts adapts to it.
+- Published first stable build and installer for windows; you can find it [here](https://github.com/adornerz/YouClip/releases)
+
+
