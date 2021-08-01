@@ -1,4 +1,4 @@
-# YouClip v1.0.6 - Retro Theme
+# YouClip v1.0.6
 
 ## Table Of Contents:
 - What Is YouClip
@@ -11,8 +11,6 @@
 
 ### What Is YouClip?
 ![image](https://user-images.githubusercontent.com/81928644/127772911-a80efc4a-2852-434d-a04f-71e9c349905a.png)
-
-! This is the Retro Theme of YouClip! You can access the main branch [here.](https://github.com/adornerz/YouClip)
 
 YouClip takes the video whose link you provided, downloads it and crops it in the timestamps given. <br /> It uses a fancy GUI using `HTML`, `CSS` and `Javascript`,
 but don't expect too much; it was done in two days with me being a complete begginer in this GUI field. For the backend, `python` downloads and crops the video
@@ -112,5 +110,5 @@ Windows:
 <br />
 
 **v1.0.6**:
-- Created other themes! This is the Retro Theme.
+- Created other themes! You can see the Retro Theme as a branch of this repo.
 
