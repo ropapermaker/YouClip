@@ -1,4 +1,4 @@
-# YouClip v1.0.5 - Retro Theme
+# YouClip v1.0.6 - Retro Theme
 
 ## Table Of Contents:
 - What Is YouClip
