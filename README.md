@@ -1,4 +1,4 @@
-# YouClip v1.0.5
+# YouClip v1.0.5 - Retro Theme
 
 ## Table Of Contents:
 - What Is YouClip
@@ -10,7 +10,9 @@
 <br />
 
 ### What Is YouClip?
-![image](https://user-images.githubusercontent.com/81928644/127146952-fd2cc23c-d50b-4deb-bd16-eb02bf4a7d42.png)
+![image](https://user-images.githubusercontent.com/81928644/127772911-a80efc4a-2852-434d-a04f-71e9c349905a.png)
+
+! This is the Retro Theme of YouClip! You can access the main branch [here.](https://github.com/adornerz/YouClip)
 
 YouClip takes the video whose link you provided, downloads it and crops it in the timestamps given. <br /> It uses a fancy GUI using `HTML`, `CSS` and `Javascript`,
 but don't expect too much; it was done in two days with me being a complete begginer in this GUI field. For the backend, `python` downloads and crops the video
@@ -27,7 +29,7 @@ To install requirements for YouClip in Linux run these commands in the terminal:
 <br />
 
 For windows just download the relase file in the [Relases](https://github.com/adornerz/YouClip/releases) and run it.
-For Mac try the above commands of linux but I haven't tried nothing on Mac so idk.
+For Mac try the above commands of linux but I haven't tried nothing on Mac so no idea if it will work or not.
 <!--
 OLD INSTALLATION INSTRUCTIONS:
 
@@ -107,4 +109,8 @@ Windows:
 - Window's installer now is fully working, and the scripts adapts to it.
 - Published first stable build and installer for windows; you can find it [here](https://github.com/adornerz/YouClip/releases)
 
+<br />
+
+**v1.0.6**:
+- Created other themes! This is the Retro Theme.
 
