@@ -10,7 +10,8 @@
 <br />
 
 ### What Is YouClip?
-![image](https://user-images.githubusercontent.com/81928644/127772911-a80efc4a-2852-434d-a04f-71e9c349905a.png)
+![img](https://user-images.githubusercontent.com/81928644/127773136-2b33f4eb-7c38-4476-866f-b8baec642f8e.png)
+
 
 YouClip takes the video whose link you provided, downloads it and crops it in the timestamps given. <br /> It uses a fancy GUI using `HTML`, `CSS` and `Javascript`,
 but don't expect too much; it was done in two days with me being a complete begginer in this GUI field. For the backend, `python` downloads and crops the video
